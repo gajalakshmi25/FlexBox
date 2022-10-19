@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .flex-container{
+        width: 500px;
+        height: 100px;
+        display: flex;
+       }
+       .flex-items:nth-child(1){
+       
+       order: 3;
+      }
+      .flex-items:nth-child(2){
+      
+      order: 1;
+     }
+     .flex-items:nth-child(3){
+      
+      order: 2;
+     }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Learning Flex</h1>
+    
+
+    <div class="flex-container">
+       <div class="flex-items">box1</div>
+       <div class="flex-items">box2</div>
+       <div class="flex-items">box3</div>
+      
+       
+       
+    </div>
+
+</body>
+</html>
